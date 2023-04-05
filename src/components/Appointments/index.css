@@ -1,0 +1,80 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+}
+
+.bg-container {
+  padding: 10px;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-width: 700px;
+  max-width: 700px;
+}
+
+.appointment-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  width: 300px;
+}
+.main-heading {
+  color: #171f46;
+}
+.description {
+  color: #b5b7c4;
+}
+.input {
+  height: 40px;
+  width: 250px;
+  padding: 10px;
+  color: #b5b7c4;
+}
+.button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  height: 40px;
+  width: 60px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.appointment-add-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.starred-button {
+  background-color: transparent;
+  border: #9897f0 solid 1px;
+  color: #9897f0;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  font-weight: bold;
+}
+.active-starred-button {
+  background-color: #9897f0;
+  border: #9897f0 solid 1px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  font-weight: bold;
+}
+.unorder-list {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  list-style-type: none;
+  border: #b5b7c4 solid 1px;
+  border-radius: 10px;
+  min-width: 300px;
+  margin: 5px;
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+}
+.appointment-heading {
+  color: #171f46;
+}
+.description {
+  color: #b5b7c4;
+}
